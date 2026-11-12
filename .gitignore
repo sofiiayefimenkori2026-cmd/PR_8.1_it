@@ -1,0 +1,11 @@
+# Compiled binaries
+PR_8.1.it
+PR_8.1.rec
+PR_8.1.char
+PR_8.1.string
+PR_8.2
+tests/UnitTest_*
+!tests/UnitTest_*.cpp
+*.dSYM/
+.DS_Store
+~$*.docx

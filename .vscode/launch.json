@@ -1,0 +1,76 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug PR_8.1.it",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/PR_8.1.it",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "Build All (Makefile)"
+        },
+        {
+            "name": "Debug PR_8.1.rec",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/PR_8.1.rec",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "Build All (Makefile)"
+        },
+        {
+            "name": "Debug PR_8.1.char",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/PR_8.1.char",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "Build All (Makefile)"
+        },
+        {
+            "name": "Debug PR_8.1.string",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/PR_8.1.string",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "Build All (Makefile)"
+        },
+        {
+            "name": "Debug PR_8.2",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/PR_8.2",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "Build All (Makefile)"
+        },
+        {
+            "name": "Debug Current Test File",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        }
+    ]
+}
